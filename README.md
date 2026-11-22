@@ -2,9 +2,6 @@
 
 **Planning-Guided, Intent-Conditioned Graph Navigation for Retrieval-Augmented Generation**
 
-Haoyang Xu, Yanhua Yu, Feng Luo, Zhiyong Huang, Shuai Luo
-*Beijing University of Posts and Telecommunications · China Mobile Group Design Institute · National University of Singapore*
-
 GuideRAG is a graph-based RAG framework for multi-hop question answering. Rather than expanding a query-agnostic evidence graph, it first extracts a lightweight **retrieval plan** — task decomposition, anchor entities, and an expected type chain — and uses that plan to steer multi-hop evidence discovery, so expansion follows the query's intent instead of drifting into noisy regions.
 
 ## How it works
@@ -43,11 +40,3 @@ Each folder holds `questions.json` (questions with gold answers and evidence) an
 ## Code
 
 The implementation is being cleaned up and **will be open-sourced in this repository**. Until then, the dataset above is fully usable on its own; watch/star the repo to be notified.
-
-## Citation
-
-If you find this work useful, please cite the paper. A BibTeX entry will be added once the official version is available.
-
-## Acknowledgement
-
-Supported by the BUPT–China Mobile Joint Institute, and by the National Natural Science Foundation of China (Grant No. U22B2019).
